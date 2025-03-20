@@ -356,5 +356,17 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "form",
+    "fields": [
+      {
+        "component": "text-input",
+        "name": "form",
+        "value": "",
+        "label": "Form URL",
+        "valueType": "string"
+      }
+    ]
   }
 ]
