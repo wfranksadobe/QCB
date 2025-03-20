@@ -1,11 +1,11 @@
 {
   "mappings": [
-    "/content/securbank/:/",
-    "/content/securbank/placeholders:/placeholders.json",
-    "/content/securbank/loans/mortgagecalc:/mortgagecalc.json",
+    "/content/queensland-country-bank/:/",
+    "/content/queensland-country-bank/placeholders:/placeholders.json",
+    "/content/queensland-country-bank/loans/mortgagecalc:/mortgagecalc.json",
     "/graphql:/graphql",
-    "/content/securbank.resource/icons/:/icons/",
-    "/content/securbank/configuration:/.helix/config.json"
+    "/content/queensland-country-bank.resource/icons/:/icons/",
+    "/content/queensland-country-bank/configuration:/.helix/config.json"
   ],
-  "includes": ["/content/securbank/"]
+  "includes": ["/content/queensland-country-bank/"]
 }
