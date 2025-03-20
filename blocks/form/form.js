@@ -287,8 +287,9 @@ async function createForm(formURL) {
 }
 
 export default async function decorate(block) {
-  const form = "https://main--aanz--wfranksadobe.hlx.live/creditcards/form.json";
+  //const form = "https://main--aanz--wfranksadobe.hlx.live/creditcards/form.json";
+  const form = block.querySelector("a[href$='.json']");
   if (form) {
-    form.replaceWith(await createForm(form));
+    form.replaceWith(await createForm(form.href));
   }
 }
