@@ -3,6 +3,7 @@
     "/content/queensland-country-bank/:/",
     "/content/queensland-country-bank/placeholders:/placeholders.json",
     "/content/queensland-country-bank/loans/mortgagecalc:/mortgagecalc.json",
+    "/content/queensland-country-bank/loans/form:/form.json",
     "/graphql:/graphql",
     "/content/queensland-country-bank.resource/icons/:/icons/",
     "/content/queensland-country-bank/configuration:/.helix/config.json"
