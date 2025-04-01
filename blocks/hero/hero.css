@@ -32,7 +32,7 @@ main .hero h1 {
   margin: 106px auto 0;
   color: white;
   /* font: normal normal normal 48px/52px adobe-clean, sans-serif;*/
-  font: normal normal black 48px/52px adobe-clean, sans-serif;
+  font: normal black normal 68px/72px adobe-clean, sans-serif;
 }
 
 main .hero h2 {
