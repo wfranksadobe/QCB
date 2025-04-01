@@ -15,11 +15,13 @@
 }
 
 @media (width >= 600px) {
+    /*
     .banner-content {
         width: 1170px;
         height: 200px;
         margin: 55px;
     }
+    */
 
     .banner1300x435 .banner-content {
       width: 1300px;
