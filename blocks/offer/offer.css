@@ -37,7 +37,8 @@
     background-size: cover;
     background-position: center;
     margin: 0;
-    padding: 32px;
+    /*padding: 32px;*/
+    padding: 132px 32px 32px;
     color: #fff;
   }
 
