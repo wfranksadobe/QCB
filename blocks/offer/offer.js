@@ -4,7 +4,7 @@ import { getAEMPublish, getAEMAuthor } from '../../scripts/endpointconfig.js';
 export default async function decorate(block) {
   const aempublishurl = getAEMPublish();
   const aemauthorurl = getAEMAuthor();
-  const persistedquery = '/graphql/execute.json/securbank/OfferByPath';
+  const persistedquery = '/graphql/execute.json/queensland-country-bank/OfferByPath';
   const offerpath = block.querySelector(':scope div:nth-child(1) > div a').innerHTML.trim();
   const variationname = block.querySelector(':scope div:nth-child(2) > div').innerHTML.trim();
 
