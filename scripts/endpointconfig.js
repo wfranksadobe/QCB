@@ -1,9 +1,9 @@
 function getAEMPublish() {
-  return 'https://publish-p137176-e1382526.adobeaemcloud.com';
+  return 'https://publish-p154716-e1630108.adobeaemcloud.com';
 }
 
 function getAEMAuthor() {
-  return 'https://author-p137176-e1382526.adobeaemcloud.com';
+  return 'https://author-p154716-e1630108.adobeaemcloud.com';
 }
 
 export { getAEMPublish, getAEMAuthor };
