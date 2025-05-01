@@ -6,7 +6,7 @@ export default async function decorate(block) {
   const firsttag = props[0].textContent.trim();
   const variationname = props[1].textContent.trim() || 'master';
   const cachebuster = Math.floor(Math.random() * 1000);
-  const aempublishurl = getAEMPublish();
+  const aempublishurl = getAEMPublish(); 
   const url = `${aempublishurl}/graphql/execute.json/queensland-country-bank/FAQListbyTag;tag=${firsttag};variation=${variationname}?ts=${cachebuster}`;
   const options = {};
   const faq = await fetch(url, options);
