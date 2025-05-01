@@ -11,7 +11,15 @@ export default async function decorate(block) {
   const url = window.location && window.location.origin && window.location.origin.includes('author')
     ? `${aemauthorurl}${persistedquery};path=${offerpath};variation=${variationname};ts=${Math.random() * 1000}`
     : `${aempublishurl}${persistedquery};path=${offerpath};variation=${variationname};ts=${Math.random() * 1000}`;
-  const options = { credentials: 'include' };
+  //const options = { credentials: 'include' };
+  const options = { 
+    method: "GET",
+    headers: {
+      "Access-Control-Request-Headers": "Authorization",
+      "Content-Type": "application/json"
+    },    
+    credentials: 'include' 
+  };
 
   const cfReq = await fetch(url, options)
     .then((response) => response.json())
